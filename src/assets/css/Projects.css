@@ -1,0 +1,63 @@
+#firstCardProjects{
+    height: 45%;
+    width:90%;
+    background-color: rgba(133,107,108,0.4);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding: 0.2rem;
+    opacity:0.3;
+
+}
+
+#secondCardProjects{
+    height: 45%;
+    width:90%;
+    background-color: rgba(133,107,108,0.4);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding: 0.2rem;
+    margin:0;
+    opacity:0.3;
+}
+
+.imgCardProjects{
+    height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.infosCardProjects{
+    color: rgb(221, 217, 217);
+    font-family: 'barlow';
+}
+
+#firstCardProjects :hover{
+   color:white !important;
+}
+
+#threeCardProjects, #fourCardProjects{
+    height: 90%;
+    width:40%;
+    background-color: rgba(133,107,108,0.4);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding: 0.2rem;
+    margin:0;
+    opacity:0.3;
+}
+
+
+#firstCardProjects:hover, #secondCardProjects:hover, #threeCardProjects:hover, #fourCardProjects:hover{
+    opacity:1;
+    transition: 0.5s;
+}
+  
+
+
+

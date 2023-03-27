@@ -1,0 +1,115 @@
+.disco-ball-button {
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 20px;
+    border: none;
+    height:100%;
+    width:100%;
+    border-radius: 50%;
+    color: white;
+    background-color: #222;
+    border:none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #spotifyFrame {
+    background-color: rgb(40,40,40) !important;
+     }
+
+  .disco-ball-button:hover {
+    background-color: #BD1669;
+  }
+
+  
+  @keyframes disco-ball {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    50% {
+      transform: translate(-50%, -50%) rotate(180deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+
+  .disco-ball-button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-image: radial-gradient(circle at 30% 30%, #fff 5%, transparent 5.5%),
+    radial-gradient(circle at 70% 30%, #fff 5%, transparent 5.5%),
+    radial-gradient(circle at 0% 30%, #fff 5%, transparent 5.5%);
+background-size: 79px 6px;
+animation: disco-ball 2s infinite;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8) inset,
+                0 0 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .disco-ball-button::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(53,7,76,0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    transform: rotateZ(45deg);
+    animation: disco-ball 3s infinite linear;
+  }
+  
+
+   
+  .disco-ball-button::hover {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #bbcc22;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    transform: rotateZ(45deg);
+    animation: disco-ball 3s infinite linear;
+  }
+  
+
+
+  @keyframes disco-ball {
+    from {
+      transform: rotateZ(45deg);
+    }
+    to {
+      transform: rotateZ(405deg);
+    }
+  }
+
+    .disco-ball-button::before {
+        animation: disco-ball 3s infinite linear;
+    }
+
+  .popup-content {
+    border: none !important;
+    height:40% !important;
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex;
+    bottom:5% !important;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 3px 0px 13px 15px;
+
+  }
+
+  #closeExperienceDisco :hover{
+    background-color: rgb(199, 72, 72) !important;
+    color:white
+  }
+ 
